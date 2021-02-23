@@ -1,11 +1,3 @@
-#include<iostream>
-#include<algorithm>
-using namespace std;
-
-struct Rect
-{
-	double x,y,w,h;
-};
 
 double overlap(Rect *R1,Rect *R2)
 {
